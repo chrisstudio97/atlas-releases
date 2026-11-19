@@ -5,6 +5,44 @@
   },
   "releases": [
     {
+      "version": "1.0.2",
+      "build": 3,
+      "channel": "production",
+      "date": "2026-11-19",
+      "force": false,
+      "notes": {
+        "es": [
+          "Vinculación de wallet más fiable: la app ahora confirma con el servidor que tu wallet quedó ligada a tu cuenta.",
+          "Si la vinculación falla, tu wallet queda guardada en el dispositivo y puedes vincularla más tarde desde Ajustes → Vincular wallet.",
+          "Puedes vincular una wallet que ya tenías creada sin volver a importar la frase semilla."
+        ],
+        "en": [
+          "More reliable wallet linking: the app now confirms with the server that your wallet is linked to your account.",
+          "If linking fails, your wallet stays saved on the device and you can link it later from Settings → Link wallet.",
+          "You can link a wallet you already created without importing the seed phrase again."
+        ],
+        "pt": [
+          "Vinculação de carteira mais confiável: o app agora confirma com o servidor que sua carteira foi vinculada à sua conta.",
+          "Se a vinculação falhar, sua carteira fica salva no dispositivo e você pode vinculá-la depois em Configurações → Vincular carteira.",
+          "Você pode vincular uma carteira já criada sem importar a frase semente novamente."
+        ]
+      },
+      "assets": {
+        "agent": {
+          "arm64-v8a": {
+            "url": "https://github.com/chrisstudio97/atlas-releases/releases/download/v1.0.2/atlas-agent-1.0.2-arm64-v8a.apk",
+            "sha256": "222ea53d0cf826ed15c2b9189769f293b485d0e915a959c2d6b6d17b8cc8e332",
+            "size": 62377304
+          },
+          "armeabi-v7a": {
+            "url": "https://github.com/chrisstudio97/atlas-releases/releases/download/v1.0.2/atlas-agent-1.0.2-armeabi-v7a.apk",
+            "sha256": "bdfd8e61606ef371406b5c1b2310d1312744da75748b02d1197bc43bb15cf4bb",
+            "size": 57935824
+          }
+        }
+      }
+    },
+    {
       "version": "1.0.1",
       "build": 2,
       "channel": "production",

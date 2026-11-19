@@ -35,6 +35,13 @@ Las APKs se publican como [**GitHub Releases**](../../releases).
 <!-- releases:start -->
 ## Versiones
 
+### v1.0.2 · 2026-11-19
+- Vinculación de wallet más fiable: la app ahora confirma con el servidor que tu wallet quedó ligada a tu cuenta.
+- Si la vinculación falla, tu wallet queda guardada en el dispositivo y puedes vincularla más tarde desde Ajustes → Vincular wallet.
+- Puedes vincular una wallet que ya tenías creada sin volver a importar la frase semilla.
+
+[Descargar APK](https://github.com/chrisstudio97/atlas-releases/releases/tag/v1.0.2)
+
 ### v1.0.1 · 2026-11-18
 - Nuevo ajuste de bloqueo automático en Seguridad.
 - El bloqueo está apagado por defecto y puedes elegir entre 1, 5, 15, 30 o 60 minutos.
