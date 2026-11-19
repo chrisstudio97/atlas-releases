@@ -30,6 +30,21 @@ Las APKs se publican como [**GitHub Releases**](../../releases).
 
 ---
 
+## Versiones
+
+<!-- releases:start -->
+## Versiones
+
+### v1.0.1 · 2026-11-18
+- Nuevo ajuste de bloqueo automático en Seguridad.
+- El bloqueo está apagado por defecto y puedes elegir entre 1, 5, 15, 30 o 60 minutos.
+- Tu PIN sigue siendo necesario al abrir la app desde cero y en las acciones sensibles.
+
+[Descargar APK](https://github.com/chrisstudio97/atlas-releases/releases/tag/v1.0.1)
+<!-- releases:end -->
+
+---
+
 ## Instalación
 
 1. Descarga el archivo `.apk` desde [Releases](../../releases).
