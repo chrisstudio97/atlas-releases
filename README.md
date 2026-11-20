@@ -35,6 +35,15 @@ Las APKs se publican como [**GitHub Releases**](../../releases).
 <!-- releases:start -->
 ## Versiones
 
+### v1.0.4 · 2026-11-20
+- En el detalle de la orden ya puedes ver los documentos de identidad del beneficiario con vista previa.
+- La dirección del beneficiario aparece en el detalle y en la tarjeta del chat.
+- Nuevo botón de WhatsApp junto al teléfono del beneficiario para contactarlo directamente.
+- El teléfono del cliente ya no se muestra en la sección Clientes.
+- Si el negocio cambia el beneficiario de una orden, recibirás un aviso en el chat.
+
+[Descargar APK](https://github.com/chrisstudio97/atlas-releases/releases/tag/v1.0.4)
+
 ### v1.0.3 · 2026-11-19
 - Corregida la vinculación de wallet cuando el reloj del teléfono no coincide con el del servidor.
 - La app sincroniza la hora con el backend antes de firmar, evitando el error 'Stale signature'.

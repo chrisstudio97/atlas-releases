@@ -5,6 +5,50 @@
   },
   "releases": [
     {
+      "version": "1.0.4",
+      "build": 5,
+      "channel": "production",
+      "date": "2026-11-20",
+      "force": false,
+      "notes": {
+        "es": [
+          "En el detalle de la orden ya puedes ver los documentos de identidad del beneficiario con vista previa.",
+          "La dirección del beneficiario aparece en el detalle y en la tarjeta del chat.",
+          "Nuevo botón de WhatsApp junto al teléfono del beneficiario para contactarlo directamente.",
+          "El teléfono del cliente ya no se muestra en la sección Clientes.",
+          "Si el negocio cambia el beneficiario de una orden, recibirás un aviso en el chat."
+        ],
+        "en": [
+          "Order details now show the beneficiary's identity documents with a preview.",
+          "The beneficiary's address is shown in the details and in the chat card.",
+          "New WhatsApp button next to the beneficiary's phone to contact them directly.",
+          "The client's phone is no longer shown in the Clients section.",
+          "If the business changes an order's beneficiary, you will get a notice in the chat."
+        ],
+        "pt": [
+          "Os detalhes da ordem agora mostram os documentos de identidade do beneficiário com pré-visualização.",
+          "O endereço do beneficiário aparece nos detalhes e no cartão do chat.",
+          "Novo botão de WhatsApp ao lado do telefone do beneficiário para contatá-lo diretamente.",
+          "O telefone do cliente não aparece mais na seção Clientes.",
+          "Se o negócio alterar o beneficiário de uma ordem, você receberá um aviso no chat."
+        ]
+      },
+      "assets": {
+        "agent": {
+          "arm64-v8a": {
+            "url": "https://github.com/chrisstudio97/atlas-releases/releases/download/v1.0.4/atlas-agent-1.0.4-arm64-v8a.apk",
+            "sha256": "c00f8889b9b25d4117607cddb4677469e8a14e781c6b0be51c138b5718c5a611",
+            "size": 62443872
+          },
+          "armeabi-v7a": {
+            "url": "https://github.com/chrisstudio97/atlas-releases/releases/download/v1.0.4/atlas-agent-1.0.4-armeabi-v7a.apk",
+            "sha256": "1cf16bf310186cb0f35d8af745cc503448b3e4ad52999154a8195eb8999d9dd5",
+            "size": 57969624
+          }
+        }
+      }
+    },
+    {
       "version": "1.0.3",
       "build": 4,
       "channel": "production",
