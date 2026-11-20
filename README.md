@@ -35,6 +35,13 @@ Las APKs se publican como [**GitHub Releases**](../../releases).
 <!-- releases:start -->
 ## Versiones
 
+### v1.0.3 · 2026-11-19
+- Corregida la vinculación de wallet cuando el reloj del teléfono no coincide con el del servidor.
+- La app sincroniza la hora con el backend antes de firmar, evitando el error 'Stale signature'.
+- Si la vinculación falla, puedes reintentarla desde Ajustes → Vincular wallet.
+
+[Descargar APK](https://github.com/chrisstudio97/atlas-releases/releases/tag/v1.0.3)
+
 ### v1.0.2 · 2026-11-19
 - Vinculación de wallet más fiable: la app ahora confirma con el servidor que tu wallet quedó ligada a tu cuenta.
 - Si la vinculación falla, tu wallet queda guardada en el dispositivo y puedes vincularla más tarde desde Ajustes → Vincular wallet.

@@ -5,6 +5,44 @@
   },
   "releases": [
     {
+      "version": "1.0.3",
+      "build": 4,
+      "channel": "production",
+      "date": "2026-11-19",
+      "force": false,
+      "notes": {
+        "es": [
+          "Corregida la vinculación de wallet cuando el reloj del teléfono no coincide con el del servidor.",
+          "La app sincroniza la hora con el backend antes de firmar, evitando el error 'Stale signature'.",
+          "Si la vinculación falla, puedes reintentarla desde Ajustes → Vincular wallet."
+        ],
+        "en": [
+          "Fixed wallet linking when the phone clock does not match the server clock.",
+          "The app now syncs the time with the backend before signing, avoiding the 'Stale signature' error.",
+          "If linking fails, you can retry it from Settings → Link wallet."
+        ],
+        "pt": [
+          "Corrigida a vinculação de carteira quando o relógio do celular não corresponde ao do servidor.",
+          "O app agora sincroniza a hora com o backend antes de assinar, evitando o erro 'Stale signature'.",
+          "Se a vinculação falhar, você pode tentar novamente em Configurações → Vincular carteira."
+        ]
+      },
+      "assets": {
+        "agent": {
+          "arm64-v8a": {
+            "url": "https://github.com/chrisstudio97/atlas-releases/releases/download/v1.0.3/atlas-agent-1.0.3-arm64-v8a.apk",
+            "sha256": "32d54cb69451a625e8c7ac157c4b264eb645bd0a0b4646b53570ce7e32b9ee6e",
+            "size": 62377924
+          },
+          "armeabi-v7a": {
+            "url": "https://github.com/chrisstudio97/atlas-releases/releases/download/v1.0.3/atlas-agent-1.0.3-armeabi-v7a.apk",
+            "sha256": "ebfee36ded5e32b92072e1cc6066b45512be70767639700741e99736f9cc8c88",
+            "size": 57952824
+          }
+        }
+      }
+    },
+    {
       "version": "1.0.2",
       "build": 3,
       "channel": "production",
