@@ -5,6 +5,47 @@
   },
   "releases": [
     {
+      "version": "1.0.7",
+      "build": 8,
+      "channel": "production",
+      "date": "2026-11-21",
+      "force": false,
+      "notes": {
+        "es": [
+          "El Historial ahora muestra las transferencias USDT on-chain de tu wallet, cargadas por páginas para que la app siga rápida.",
+          "Cada transferencia está etiquetada: pagos de órdenes, recibidos de wallets externas y envíos.",
+          "Toca una transferencia para ver el detalle: monto, estado, fecha, bloque, hash, contraparte y enlace al explorer. En los pagos de órdenes también puedes abrir el detalle del pago.",
+          "Se corrigió el loading infinito del Historial y se mantienen los filtros Todas, Recibidas y Enviadas, con estado vacío cuando no hay resultados."
+        ],
+        "en": [
+          "History now shows the on-chain USDT transfers of your wallet, loaded page by page so the app stays fast.",
+          "Every transfer is labeled: order payouts, receives from external wallets, and sends.",
+          "Tap a transfer to see its details: amount, status, date, block, hash, counterparty and explorer link. For order payouts you can also open the payout details.",
+          "Fixed the infinite loading in History and kept the All, Received and Sent filters, with an empty state when there are no results."
+        ],
+        "pt": [
+          "O Histórico agora mostra as transferências USDT on-chain da sua carteira, carregadas por páginas para o app continuar rápido.",
+          "Cada transferência tem uma etiqueta: pagamentos de ordens, recebidos de carteiras externas e envios.",
+          "Toque em uma transferência para ver os detalhes: valor, status, data, bloco, hash, contraparte e link do explorer. Nos pagamentos de ordens você também pode abrir os detalhes do pagamento.",
+          "Corrigido o carregamento infinito do Histórico e mantidos os filtros Todas, Recebidas e Enviadas, com estado vazio quando não há resultados."
+        ]
+      },
+      "assets": {
+        "agent": {
+          "arm64-v8a": {
+            "url": "https://github.com/chrisstudio97/atlas-releases/releases/download/v1.0.7/atlas-agent-1.0.7-arm64-v8a.apk",
+            "sha256": "a1f718dc24086a654b8605423919abcaf8ba6e6eef5195228ca146826bab4311",
+            "size": 62511512
+          },
+          "armeabi-v7a": {
+            "url": "https://github.com/chrisstudio97/atlas-releases/releases/download/v1.0.7/atlas-agent-1.0.7-armeabi-v7a.apk",
+            "sha256": "b26c632bf9ff5f0ecf22933ca54499c5468e92bc2a9d1bcc2465bab843a2b8f5",
+            "size": 58004496
+          }
+        }
+      }
+    },
+    {
       "version": "1.0.6",
       "build": 7,
       "channel": "production",

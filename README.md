@@ -35,6 +35,14 @@ Las APKs se publican como [**GitHub Releases**](../../releases).
 <!-- releases:start -->
 ## Versiones
 
+### v1.0.7 · 2026-11-21
+- El Historial ahora muestra las transferencias USDT on-chain de tu wallet, cargadas por páginas para que la app siga rápida.
+- Cada transferencia está etiquetada: pagos de órdenes, recibidos de wallets externas y envíos.
+- Toca una transferencia para ver el detalle: monto, estado, fecha, bloque, hash, contraparte y enlace al explorer. En los pagos de órdenes también puedes abrir el detalle del pago.
+- Se corrigió el loading infinito del Historial y se mantienen los filtros Todas, Recibidas y Enviadas, con estado vacío cuando no hay resultados.
+
+[Descargar APK](https://github.com/chrisstudio97/atlas-releases/releases/tag/v1.0.7)
+
 ### v1.0.6 · 2026-11-20
 - Corregida la subida de documentos KYC en conexiones lentas: el tiempo máximo de subida ya no corta el archivo a los 12 segundos.
 - Las fotos de identidad y selfie se optimizan más (máximo 1600 px y ~1.5 MB) para que suban más rápido.
