@@ -35,6 +35,15 @@ Las APKs se publican como [**GitHub Releases**](../../releases).
 <!-- releases:start -->
 ## Versiones
 
+### v1.0.5 · 2026-11-20
+- Nuevo control de acceso por país: después del PIN, la app comprueba que el país de tu conexión coincida con el país de tu teléfono registrado.
+- Si no coincide, verás el mensaje 'Estás intentando acceder desde un país restringido' y no podrás entrar hasta usar la conexión del país correcto.
+- La sesión ya no se borra por un error temporal de autorización; no volverás al registro de teléfono si ya tienes cuenta.
+- La sesión se refresca al volver a la app para evitar cierres inesperados.
+- Si usas una VPN, desactívala para acceder desde tu país registrado.
+
+[Descargar APK](https://github.com/chrisstudio97/atlas-releases/releases/tag/v1.0.5)
+
 ### v1.0.4 · 2026-11-20
 - En el detalle de la orden ya puedes ver los documentos de identidad del beneficiario con vista previa.
 - La dirección del beneficiario aparece en el detalle y en la tarjeta del chat.

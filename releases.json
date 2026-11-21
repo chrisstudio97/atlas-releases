@@ -5,6 +5,50 @@
   },
   "releases": [
     {
+      "version": "1.0.5",
+      "build": 6,
+      "channel": "production",
+      "date": "2026-11-20",
+      "force": false,
+      "notes": {
+        "es": [
+          "Nuevo control de acceso por país: después del PIN, la app comprueba que el país de tu conexión coincida con el país de tu teléfono registrado.",
+          "Si no coincide, verás el mensaje 'Estás intentando acceder desde un país restringido' y no podrás entrar hasta usar la conexión del país correcto.",
+          "La sesión ya no se borra por un error temporal de autorización; no volverás al registro de teléfono si ya tienes cuenta.",
+          "La sesión se refresca al volver a la app para evitar cierres inesperados.",
+          "Si usas una VPN, desactívala para acceder desde tu país registrado."
+        ],
+        "en": [
+          "New country access check: after the PIN, the app verifies that the connection country matches the country of your registered phone.",
+          "If they do not match, you will see 'You are trying to access from a restricted country' and will not be able to enter until you use the correct country connection.",
+          "The session is no longer cleared by a temporary authorization error; you will not be sent back to phone registration if you already have an account.",
+          "The session is refreshed when you return to the app to avoid unexpected sign-outs.",
+          "If you use a VPN, turn it off to access from your registered country."
+        ],
+        "pt": [
+          "Nova verificação de acesso por país: após o PIN, o app verifica se o país da conexão corresponde ao país do seu telefone registrado.",
+          "Se não corresponder, você verá 'Você está tentando acessar de um país restrito' e não poderá entrar até usar a conexão do país correto.",
+          "A sessão não é mais apagada por um erro temporário de autorização; você não voltará ao registro de telefone se já tiver conta.",
+          "A sessão é renovada ao voltar ao app para evitar encerramentos inesperados.",
+          "Se usar uma VPN, desative-a para acessar do seu país registrado."
+        ]
+      },
+      "assets": {
+        "agent": {
+          "arm64-v8a": {
+            "url": "https://github.com/chrisstudio97/atlas-releases/releases/download/v1.0.5/atlas-agent-1.0.5-arm64-v8a.apk",
+            "sha256": "28217afff01200cf5d6c7f75a3934755b69bec9008e9b493ae80d5f5514646e9",
+            "size": 62444524
+          },
+          "armeabi-v7a": {
+            "url": "https://github.com/chrisstudio97/atlas-releases/releases/download/v1.0.5/atlas-agent-1.0.5-armeabi-v7a.apk",
+            "sha256": "9771210371c8660499e2e04e62258bd6fcd7f66d9e745b22fb6f3afdc0fccfa8",
+            "size": 57970276
+          }
+        }
+      }
+    },
+    {
       "version": "1.0.4",
       "build": 5,
       "channel": "production",
