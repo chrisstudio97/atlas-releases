@@ -5,6 +5,44 @@
   },
   "releases": [
     {
+      "version": "1.0.6",
+      "build": 7,
+      "channel": "production",
+      "date": "2026-11-20",
+      "force": false,
+      "notes": {
+        "es": [
+          "Corregida la subida de documentos KYC en conexiones lentas: el tiempo máximo de subida ya no corta el archivo a los 12 segundos.",
+          "Las fotos de identidad y selfie se optimizan más (máximo 1600 px y ~1.5 MB) para que suban más rápido.",
+          "Si una subida se interrumpe, la app muestra un mensaje claro y puedes reintentar sin volver a subir los documentos que ya se enviaron."
+        ],
+        "en": [
+          "Fixed KYC document uploads on slow connections: the upload no longer times out after 12 seconds and truncates the file.",
+          "Identity and selfie photos are optimized further (max 1600 px and ~1.5 MB) so they upload faster.",
+          "If an upload is interrupted, the app shows a clear message and you can retry without re-uploading documents that already succeeded."
+        ],
+        "pt": [
+          "Corrigido o envio de documentos KYC em conexões lentas: o tempo máximo de envio não corta mais o arquivo aos 12 segundos.",
+          "As fotos de identidade e selfie são otimizadas mais (máximo 1600 px e ~1.5 MB) para enviar mais rápido.",
+          "Se um envio for interrompido, o app mostra uma mensagem clara e você pode tentar novamente sem reenviar os documentos que já foram enviados."
+        ]
+      },
+      "assets": {
+        "agent": {
+          "arm64-v8a": {
+            "url": "https://github.com/chrisstudio97/atlas-releases/releases/download/v1.0.6/atlas-agent-1.0.6-arm64-v8a.apk",
+            "sha256": "4bdf07dd6af8dce2b3520a5cb74204d2ad651c52ade788d6a07fc4f6c9754277",
+            "size": 62445380
+          },
+          "armeabi-v7a": {
+            "url": "https://github.com/chrisstudio97/atlas-releases/releases/download/v1.0.6/atlas-agent-1.0.6-armeabi-v7a.apk",
+            "sha256": "0acf50361c1afda59eb39ed2f8a3e176a3df673dff80d533c58bae4518a26561",
+            "size": 57971132
+          }
+        }
+      }
+    },
+    {
       "version": "1.0.5",
       "build": 6,
       "channel": "production",

@@ -35,6 +35,13 @@ Las APKs se publican como [**GitHub Releases**](../../releases).
 <!-- releases:start -->
 ## Versiones
 
+### v1.0.6 · 2026-11-20
+- Corregida la subida de documentos KYC en conexiones lentas: el tiempo máximo de subida ya no corta el archivo a los 12 segundos.
+- Las fotos de identidad y selfie se optimizan más (máximo 1600 px y ~1.5 MB) para que suban más rápido.
+- Si una subida se interrumpe, la app muestra un mensaje claro y puedes reintentar sin volver a subir los documentos que ya se enviaron.
+
+[Descargar APK](https://github.com/chrisstudio97/atlas-releases/releases/tag/v1.0.6)
+
 ### v1.0.5 · 2026-11-20
 - Nuevo control de acceso por país: después del PIN, la app comprueba que el país de tu conexión coincida con el país de tu teléfono registrado.
 - Si no coincide, verás el mensaje 'Estás intentando acceder desde un país restringido' y no podrás entrar hasta usar la conexión del país correcto.
