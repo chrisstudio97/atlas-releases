@@ -35,6 +35,16 @@ Las APKs se publican como [**GitHub Releases**](../../releases).
 <!-- releases:start -->
 ## Versiones
 
+### v1.0.8 · 2026-11-23
+- Corregido un error crítico de importes: al usar MAX o enviar más de 9.22 USDT/BNB, la app podía firmar 9.223372036854775807 en vez del monto real. Ahora la conversión es exacta.
+- El envío muestra la dirección completa y bloquea direcciones parecidas a contactos, a tu wallet o a la wallet de Atlas (address poisoning).
+- Los destinatarios nuevos requieren confirmar los últimos 6 caracteres; los contactos se guardan por usuario y rechazan duplicados o direcciones parecidas.
+- El historial marca transferencias externas no verificadas y posible dust, y ya no permite copiar direcciones externas.
+- El cambio de wallet muestra la dirección anterior y la nueva completas y bloquea cambios a direcciones parecidas.
+- Producción valida el contrato USDT-BEP20 canónico y un RPC HTTPS.
+
+[Descargar APK](https://github.com/chrisstudio97/atlas-releases/releases/tag/v1.0.8)
+
 ### v1.0.7 · 2026-11-21
 - El Historial ahora muestra las transferencias USDT on-chain de tu wallet, cargadas por páginas para que la app siga rápida.
 - Cada transferencia está etiquetada: pagos de órdenes, recibidos de wallets externas y envíos.

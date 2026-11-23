@@ -1,9 +1,56 @@
 {
   "schema": 1,
   "min_supported_version": {
-    "production": "1.0.1"
+    "production": "1.0.8"
   },
   "releases": [
+    {
+      "version": "1.0.8",
+      "build": 9,
+      "channel": "production",
+      "date": "2026-11-23",
+      "force": true,
+      "notes": {
+        "es": [
+          "Corregido un error crítico de importes: al usar MAX o enviar más de 9.22 USDT/BNB, la app podía firmar 9.223372036854775807 en vez del monto real. Ahora la conversión es exacta.",
+          "El envío muestra la dirección completa y bloquea direcciones parecidas a contactos, a tu wallet o a la wallet de Atlas (address poisoning).",
+          "Los destinatarios nuevos requieren confirmar los últimos 6 caracteres; los contactos se guardan por usuario y rechazan duplicados o direcciones parecidas.",
+          "El historial marca transferencias externas no verificadas y posible dust, y ya no permite copiar direcciones externas.",
+          "El cambio de wallet muestra la dirección anterior y la nueva completas y bloquea cambios a direcciones parecidas.",
+          "Producción valida el contrato USDT-BEP20 canónico y un RPC HTTPS."
+        ],
+        "en": [
+          "Fixed a critical amount bug: using MAX or sending more than 9.22 USDT/BNB could sign 9.223372036854775807 instead of the real amount. Conversion is now exact.",
+          "The send flow shows the full address and blocks addresses that look like contacts, your wallet or the Atlas wallet (address poisoning).",
+          "New recipients require confirming the last 6 characters; contacts are stored per user and reject duplicates or look-alike addresses.",
+          "History flags unverified external transfers and possible dust, and no longer allows copying external addresses.",
+          "Wallet changes show the full old and new addresses and block look-alike destinations.",
+          "Production validates the canonical USDT-BEP20 contract and an HTTPS RPC."
+        ],
+        "pt": [
+          "Corrigido um erro crítico de valores: ao usar MAX ou enviar mais de 9.22 USDT/BNB, o app podia assinar 9.223372036854775807 em vez do valor real. A conversão agora é exata.",
+          "O envio mostra o endereço completo e bloqueia endereços parecidos com contatos, sua carteira ou a carteira da Atlas (address poisoning).",
+          "Novos destinatários exigem confirmar os últimos 6 caracteres; os contatos são salvos por usuário e rejeitam duplicados ou endereços parecidos.",
+          "O histórico marca transferências externas não verificadas e possível dust, e não permite mais copiar endereços externos.",
+          "A troca de carteira mostra os endereços antigo e novo completos e bloqueia destinos parecidos.",
+          "Produção valida o contrato USDT-BEP20 canônico e um RPC HTTPS."
+        ]
+      },
+      "assets": {
+        "agent": {
+          "arm64-v8a": {
+            "url": "https://github.com/chrisstudio97/atlas-releases/releases/download/v1.0.8/atlas-agent-1.0.8-arm64-v8a.apk",
+            "sha256": "c405d8d4b41af5a1ad6b32e3564c498680fbc14ee61ef8941cd61605addc9d38",
+            "size": 62512764
+          },
+          "armeabi-v7a": {
+            "url": "https://github.com/chrisstudio97/atlas-releases/releases/download/v1.0.8/atlas-agent-1.0.8-armeabi-v7a.apk",
+            "sha256": "7c9a84f565cf77e585c05aa23b6ea243d4c6430561e31c993a6e94fdde912b5c",
+            "size": 58071276
+          }
+        }
+      }
+    },
     {
       "version": "1.0.7",
       "build": 8,
